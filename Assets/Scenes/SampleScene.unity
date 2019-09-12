@@ -386,7 +386,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< master
 --- !u!1 &1034234448
+=======
+--- !u!1 &1310998642
+>>>>>>> AddSphere
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -394,17 +398,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< master
   - component: {fileID: 1034234452}
   - component: {fileID: 1034234451}
   - component: {fileID: 1034234450}
   - component: {fileID: 1034234449}
   m_Layer: 0
   m_Name: Particle System Force Field
+=======
+  - component: {fileID: 1310998646}
+  - component: {fileID: 1310998645}
+  - component: {fileID: 1310998644}
+  - component: {fileID: 1310998643}
+  m_Layer: 0
+  m_Name: Sphere
+>>>>>>> AddSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< master
 --- !u!199 &1034234449
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5656,10 +5670,15 @@ GameObject:
   m_IsActive: 1
 --- !u!136 &1334506190
 CapsuleCollider:
+=======
+--- !u!135 &1310998643
+SphereCollider:
+>>>>>>> AddSphere
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< master
   m_GameObject: {fileID: 1334506189}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -5669,12 +5688,26 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1334506191
+=======
+  m_GameObject: {fileID: 1310998642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1310998644
+>>>>>>> AddSphere
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< master
   m_GameObject: {fileID: 1334506189}
+=======
+  m_GameObject: {fileID: 1310998642}
+>>>>>>> AddSphere
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -5706,20 +5739,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< master
 --- !u!33 &1334506192
+=======
+--- !u!33 &1310998645
+>>>>>>> AddSphere
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< master
   m_GameObject: {fileID: 1334506189}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1334506193
+=======
+  m_GameObject: {fileID: 1310998642}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1310998646
+>>>>>>> AddSphere
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< master
   m_GameObject: {fileID: 1334506189}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.98, z: 0}
@@ -5727,4 +5771,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+=======
+  m_GameObject: {fileID: 1310998642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+>>>>>>> AddSphere
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
